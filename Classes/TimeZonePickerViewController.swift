@@ -34,6 +34,7 @@ public final class TimeZonePickerViewController: UIViewController {
         super.viewDidLoad()
         configureTableView()
         configureSearchBar()
+        self.title = "Enter city name"
     }
 
     override public func viewWillAppear(_ animated: Bool) {
